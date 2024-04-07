@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes show {
+    to{
+        transform: translateX(0);
+    }
+}
+
+header{
+    max-width: 100%;
+    background-image: url(images/pizzanao02gimp2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    max-width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transform: translateX(100%);
+    animation: show 3s forwards;
+    
+}
+
+.navbar h2 {
+    padding-right: 52vw;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.navbar a {
+    margin-right: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a:hover {
+    transform: translateY(-5px);
+    transition: 1.2s;
+}
+
+.navbar button {
+    padding: 10px;
+    background-color: #DF733C;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar button:hover {
+    transform: scale(1.03);
+    transition: 1.2s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+    filter: brightness(90%);
+}
+
+.h1header {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    margin-top: 0px;
+}
+
+.h2header {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
+}
+
+.finheader {
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(46, 46, 46, 0.753);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 95px;
+    transform: translateX(-100%);
+    animation: show 3s forwards;
+}
+
+.banner {
+    padding-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 1000px;
+    min-height: 170px;
+    margin-left: 30rem;
+    background-color: #4b4d4e;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.banner button {
+    background-color: #DF733C;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 200px;
+    min-height: 80px;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.banner button:hover{
+    background-color: #df723cdc;
+}
+
+.presentation h2 {
+    font-family: "Poppins", sans-serif;
+    color: #4b4d4e;
+    text-align: center;
+    font-size: 40px;
+}
+
+hr {
+    display: block;
+    margin: 30px auto;
+    width: 80px;
+    height: 3px;
+    background-color: #DF733C;
+    border: none;
+}
+
+.presentation p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: 35rem;
+    color: #666666;
+}
+
+.horaires {
+    padding: 1px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #4b4d4e;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin-left: 45rem;
+}
+
+.horaires h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+}
+
+.horaires p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #b1b3b6;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.commande {
+    margin-bottom: 70px;
+    background-color: #4b4d4e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.commande h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.3px;
+}
+
+.commande p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+    letter-spacing: 0.3px;
+}
+
+.reseaux {
+    text-align: center;
+    
+}
+
+.reseaux h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.pizzas {
+    text-align: center;
+}
+
+.pizzas h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+img {
+    margin: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: translateY(-10px);
+    transition: 1.2s;
+}
+
+.menu ul{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    justify-content: center;
+}
+
+#fondpizza {
+    min-height: 500px;
+    background-image: url(images/iframepizza.jpg);
+    background-repeat: no-repeat;
+    margin-left: 300px;
+}
+
+#fond {
+    position: relative;
+    top: px;
+    width: 500px;
+    height: 500px;
+    right: 100px;
+}
+
+.slideshow {
+    display: block;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slide {
+    display: none;
+    flex: 0 0 100%;
+  }
+  
+  .slide img {
+    width: 85%;
+    height: 90vh;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* Révisons les sélecteurs pour cibler les diapositives correctement */
+  #slide1:checked ~ .slides #slide-1,
+  #slide2:checked ~ .slides #slide-2,
+  #slide3:checked ~ .slides #slide-3,
+  #slide4:checked ~ .slides #slide-4,
+  #slide5:checked ~ .slides #slide-5,
+  #slide6:checked ~ .slides #slide-6,
+  #slide7:checked ~ .slides #slide-7,
+  #slide8:checked ~ .slides #slide-8 
+  {
+    display: block;
+  }
+  
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .navigation label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 5px;
+  }
+  
+  /* Sélecteurs ajustés pour mettre en surbrillance l'indicateur de navigation */
+  #slide1:checked ~ .navigation label[for="slide1"],
+  #slide2:checked ~ .navigation label[for="slide2"],
+  #slide3:checked ~ .navigation label[for="slide3"],
+  #slide4:checked ~ .navigation label[for="slide4"],
+  #slide5:checked ~ .navigation label[for="slide5"],
+  #slide6:checked ~ .navigation label[for="slide6"],
+  #slide7:checked ~ .navigation label[for="slide7"],
+  #slide8:checked ~ .navigation label[for="slide8"] 
+  {
+    background: #333;
+  }
+
+  footer {
+    background-color: #aaa;
+  }
+
+  footer .map {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @charset "UTF-8";
+
+/* Adaptação para telas de celular */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        justify-content: center; /* Centraliza os itens da barra de navegação */
+        padding-right: 20px; /* Adiciona um pouco de espaço entre os itens */
+    }
+
+    .navbar h2 {
+        padding-right: 0; /* Remove o espaçamento à direita do título */
+    }
+
+    .banner, .presentation, .horaires {
+        max-width: 90%; /* Reduz a largura máxima para se ajustar melhor em telas menores */
+        margin: 20px auto; /* Centraliza as divs horizontalmente e adiciona um espaço entre elas */
+        padding: 15px; /* Reduz o padding para economizar espaço */
+        font-size: 14px; /* Diminui o tamanho da fonte para melhor legibilidade */
+    }
+
+    .presentation p {
+        margin-left: auto; /* Centraliza o texto horizontalmente */
+        margin-right: auto;
+    }
+
+    .horaires {
+        margin-left: auto; /* Centraliza a div horizontalmente */
+        margin-right: auto;
+    }
+
+    .slides {
+        max-width: 90%; /* Reduz a largura das slides para se ajustar melhor em telas menores */
+    }
+
+    .slide img {
+        width: 100%; /* Ajusta a largura das imagens das slides para preencher a largura da tela */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+}
+
